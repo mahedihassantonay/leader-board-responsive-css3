@@ -5,6 +5,7 @@ body{
     font-family: 'Poppins', sans-serif;
     background: #F3F1FF;
     margin: 0 auto;
+    
 }
 
 .container{
@@ -24,11 +25,21 @@ hr{
     margin-bottom: 40px;
 }
 
-/* Nvbar style */
+/* Navbar style */
+
+
 nav{
     background-color: 
     #562EFF;
     height: 94px;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    
+    
+    
+    
+    
     
 
 }
@@ -38,6 +49,9 @@ nav{
     margin:auto;
     justify-content: space-between;
     align-items: center;
+    
+    
+    
     
 }
 .nav-logo-title{
